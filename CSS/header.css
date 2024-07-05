@@ -1,0 +1,17 @@
+.Top-bar{
+    display: flex;
+    direction: column;
+    gap: 10px;
+    border-bottom: 1px solid var(--gray);
+    background-color: blueviolet;
+}
+
+.Top-contact,.button-links{
+    background-color: aqua;
+    font: 12px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}

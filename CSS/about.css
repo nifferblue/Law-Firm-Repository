@@ -1,0 +1,43 @@
+ .About-Us{
+  display: flex;
+  flex-direction: column;
+  gap:30px;
+  
+  padding: 25px 20px;
+}
+
+.About-Us img{
+  width: 390px;
+  height: 350px;
+
+}
+
+.About-Us h2{  
+font-size: 12px;
+font-weight: 400;
+color: var(--gray2);
+border-bottom: 2.5px solid var(--red);
+width: fit-content;
+}
+.About-Us h1{
+font-size: 28px;
+font-weight: 700;
+}
+.About-Us span{
+  color: var(--red);
+}
+.About-Us h4{
+font-size: 13px;
+font-weight: 400;
+color: var(--gray2);
+}
+.About-Us ul{
+ color: var(--gray2);
+font-size: 13px;
+font-weight: 400;
+display: flex;
+flex-direction: column;
+gap:10px;
+list-style-type: none;
+
+}

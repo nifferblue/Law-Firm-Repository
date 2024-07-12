@@ -67,3 +67,38 @@
  height:58px;
 }
 
+/* .desktop-nav{
+  display: none;
+} */
+.desktop-nav{
+ background-color: aqua;
+ text-decoration:none;
+ display: flex;
+ gap: 5px;
+
+
+}
+
+@media screen and (min-width:834px) {
+  .top-bar{
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.top-contact{
+    justify-content: start;     
+}
+.button-links{
+    justify-content: end;   
+}
+
+.desktop-nav{
+    display: flex;
+}
+
+.mobile-nav{
+    display: none;
+}
+
+}
+

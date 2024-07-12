@@ -35,7 +35,7 @@ padding-bottom: 8px;
   
 }
 
-.Consbtn{
+.Consbtn,.aboutbtn{
   background-color: var(--red);
   border: 0px;
   color: var(--white);

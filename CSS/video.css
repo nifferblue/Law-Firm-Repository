@@ -1,0 +1,44 @@
+.video{
+display: flex;
+flex-direction: column;
+gap: 20px;
+padding: 25px 20px;
+}
+.founder{
+  background-color: var(--red);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 25px 20px;
+  
+}
+.founder h2{
+font-size: 20px;
+font-weight: 700;
+color: var(--white);
+}
+
+.video h3{
+ color: var(--white);
+font-size: 14px;
+font-weight: 400;
+}
+
+.video img{
+width: 96px;
+height: 39px;
+color: var(--white);
+}
+
+.video h4,h5{
+font-size: 14px;
+font-weight: 700;
+color: var(--white);
+
+}
+.vid-container img{
+  width: 390px;
+  height: 325px;
+  border-radius: 5px;
+  
+}

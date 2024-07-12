@@ -11,6 +11,7 @@
 
 body{
   font-family: "Merriweather", serif,sans-serif;
+  background-color:rgb(127, 195, 127);
   
 }
 
@@ -20,5 +21,6 @@ body{
   --gray: #CDC9C9;
   --light-gray: #F9F9F9;
   --black:#000000;
+  --gray2:#6C6C6C;
 
 }

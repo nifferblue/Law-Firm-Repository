@@ -1,8 +1,16 @@
 /* Top bar */
+
+.top-bar{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-bottom: 1px solid gray;
+
+}
 .top-contact ,.button-links{
  font-size: 12px;
  width: 100%;
- background-color: rgb(173, 223, 220);
+ /* background-color: rgb(173, 223, 220); */
  display: flex;
  justify-content: center;
  align-items: center;
@@ -35,6 +43,7 @@
   background-color:var(--red);
   color: white;
   border: 0px;
+  
 }
 
 /* Menu bar */
@@ -43,7 +52,7 @@
   justify-content: space-between;
   padding:10px 20px;
   align-items: center;
-  background-color:rgb(144, 206, 144);
+  /* background-color:rgb(144, 206, 144); */
 }
 
 .menu-bar .icon_{

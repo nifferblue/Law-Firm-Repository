@@ -1,14 +1,29 @@
 .card{
- 
-background-color: blueviolet;
-width: 222px;
-height: 197px;
-top: 788px;
-left: 57px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+/* background-color: rgb(218, 193, 242); */
+background-color: var(--light-gray);
+width: 388px; 
+height: 254px;
+border-bottom: 0.5px solid var(--gray);
+color: var(--black);
 
 }
 
 .cards{
 display: flex;
-gap: 20px;
+padding: 25px 10px;
+flex-wrap: wrap;
+justify-content:center;
+}
+
+.card-icon{
+display:flex ;
+justify-content: center;
+align-items: center;
+width: 50px;
+height: 50px;
+
 }

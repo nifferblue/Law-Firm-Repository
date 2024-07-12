@@ -1,0 +1,59 @@
+.hero{
+  padding:80px 23px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-image:url(../Media/hero.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+
+.hero .rw{
+border-bottom: 2px solid var(--red);
+width: fit-content;
+padding-bottom: 8px;
+
+}
+.hero h1{
+  font-size: 26px;
+  font-weight:700;
+  color: var(--white);
+}
+.hero p{
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--white);
+  
+}
+.buttons{
+  display: flex;
+  gap: 15px;
+  padding-top:45px;
+  padding-bottom:2px;
+  
+}
+
+.Consbtn{
+  background-color: var(--red);
+  border: 0px;
+  color: var(--white);
+  border-radius: 5px;
+  width: 124px;
+  height: 38px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.learnbtn{
+  background-color:transparent;
+  border: 1px solid var(--white);
+  color: var(--white);
+  border-radius: 5px;
+  width: 108px;
+  height: 38px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+

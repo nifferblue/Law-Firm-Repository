@@ -29,7 +29,7 @@
   
 }
 
-button{
+.button-links button{
   width:126px;
   height: 38px;
   background-color:var(--red);
@@ -42,10 +42,19 @@ button{
   display: flex;
   justify-content: space-between;
   padding:10px 20px;
+  align-items: center;
   background-color:rgb(144, 206, 144);
 }
 
 .menu-bar .icon_{
   color: var(--red);
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.menu-bar img{
+ width: 120px;
+ height:58px;
 }
 

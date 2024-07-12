@@ -1,0 +1,14 @@
+.card{
+ 
+background-color: blueviolet;
+width: 222px;
+height: 197px;
+top: 788px;
+left: 57px;
+
+}
+
+.cards{
+display: flex;
+gap: 20px;
+}

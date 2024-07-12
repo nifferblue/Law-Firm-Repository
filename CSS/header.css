@@ -1,0 +1,42 @@
+/* Top bar */
+.top-contact ,.button-links{
+ font-size: 12px;
+ width: 100%;
+ background-color: blueviolet;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 20px;
+}
+
+.top-contact span{
+ 
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.social-links{
+  display: flex;
+  gap: 5px;
+  
+}
+.social-links .icon{
+  border: 1px solid;
+  border-radius:50%;
+  padding: 5px;
+  
+}
+
+button{
+  width:126px;
+  height: 38px;
+  background-color:var(--red);
+  color: white;
+  border: 0px;
+}
+
+/* Menu bar */
+
+

@@ -2,7 +2,7 @@
 .top-contact ,.button-links{
  font-size: 12px;
  width: 100%;
- background-color: blueviolet;
+ background-color: rgb(173, 223, 220);
  display: flex;
  justify-content: center;
  align-items: center;
@@ -38,5 +38,14 @@ button{
 }
 
 /* Menu bar */
+.menu-bar{
+  display: flex;
+  justify-content: space-between;
+  padding:10px 20px;
+  background-color:rgb(144, 206, 144);
+}
 
+.menu-bar .icon_{
+  color: var(--red);
+}
 

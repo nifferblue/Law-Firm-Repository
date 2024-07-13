@@ -1,0 +1,75 @@
+.contact-us{
+/* background-image:url(../Media/contact.jpeg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover; */
+background-color: cadetblue;
+display: flex;
+flex-direction: column;
+gap: 15px;
+padding:25px 20px;
+
+
+}
+
+.contact-us p{
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 400;
+  
+}
+
+.contact-us h5{
+  color: var(--white);
+  font-size: 13px;
+  font-weight: 400;
+}
+.contact-us h6{
+  color: var(--white);
+  font-size: 15px;
+  font-weight: 400;
+  border-bottom:2.5px solid var(--red);
+  width: fit-content;
+}
+.contact-us h4{
+ color: var(--white);
+font-size: 18px;
+font-weight: 400;
+}
+.contact-form h3{
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+form{
+background-color: blueviolet;
+font-family: Merriweather;
+}
+
+input{
+  background-color: aquamarine;
+  width: 378px;
+  height: 55px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.form-icons{
+  background-color: var(--blue);
+  color: var(--white);
+  height: 55px;
+  width: 50px;
+
+}
+.form-div{
+  display: flex;
+}
+
+.txtarea{
+  width: 378px;
+  height: 202px;
+  top: 4353px;
+  font-size: 18px;
+  font-weight: 400;
+
+}

@@ -67,9 +67,9 @@
  height:58px;
 }
 
-/* .desktop-nav{
+.desktop-nav{
   display: none;
-} */
+}
 .desktop-nav{
  background-color: aqua;
  text-decoration:none;

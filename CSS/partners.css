@@ -1,0 +1,38 @@
+
+.partners{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 25px 20px;
+
+}
+.partners span{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  gap:18px;
+ 
+}
+.partners h6{
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--gray2);
+ 
+}
+
+.partners h3{
+  color:var(--black);
+  font-size: 28px;
+  font-weight: 400;
+ 
+}
+.partners .partner-images{
+
+display:grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: repeat(2,1fr);
+gap: 15px;
+}

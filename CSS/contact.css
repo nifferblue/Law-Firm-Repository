@@ -1,18 +1,17 @@
 .contact-us{
-/* background-image:url(../Media/contact.jpeg);
+background-image:url(../Media/contact.jpeg);
 background-position: center;
 background-repeat: no-repeat;
-background-size: cover; */
-background-color: cadetblue;
+background-size: cover;
+/* background-color: cadetblue; */
 display: flex;
 flex-direction: column;
-gap: 15px;
+gap: 25px;
 padding:25px 20px;
-
 
 }
 
-.contact-us p{
+.contact-us h3{
   color: var(--white);
   font-size: 18px;
   font-weight: 400;
@@ -30,6 +29,7 @@ padding:25px 20px;
   font-weight: 400;
   border-bottom:2.5px solid var(--red);
   width: fit-content;
+  
 }
 .contact-us h4{
  color: var(--white);
@@ -43,16 +43,21 @@ font-weight: 400;
 }
 
 form{
-background-color: blueviolet;
+/* background-color: blueviolet; */
 font-family: Merriweather;
+display: flex;
+flex-direction: column;
+gap: 20px;
+border: 0px;
 }
 
-input{
-  background-color: aquamarine;
+.contact-us input{
+  background-color: var(--form-color);
   width: 378px;
   height: 55px;
   font-size: 18px;
   font-weight: 400;
+  border: 0px;
 }
 .form-icons{
   background-color: var(--blue);
@@ -66,10 +71,38 @@ input{
 }
 
 .txtarea{
-  width: 378px;
+  width: 428px;
   height: 202px;
-  top: 4353px;
   font-size: 18px;
   font-weight: 400;
+  background-color: var(--form-color);
+  border: 0px;
 
+}
+.areatxt{
+  position: relative;
+}
+.areatxt #txt-icon{
+  position: absolute;
+}
+.phone , .socials{
+  
+display: flex;
+flex-direction: column;
+gap: 10px;
+
+}
+
+.contact-form p{
+/* background-color: aqua; */
+color: var(--white);
+text-decoration:none;
+font-size: 18px;
+font-weight: 400;
+padding-bottom:15px;
+}
+.contact-us .social-links .icon{
+color: var(--red);
+background-color: var(--white);
+border: 0px;
 }

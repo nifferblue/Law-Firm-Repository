@@ -44,7 +44,6 @@ font-weight: 400;
 
 form{
 /* background-color: blueviolet; */
-font-family: Merriweather;
 display: flex;
 flex-direction: column;
 gap: 20px;
@@ -68,6 +67,7 @@ border: 0px;
 }
 .form-div{
   display: flex;
+  /* gap:5px; */
 }
 
 .txtarea{
@@ -105,4 +105,10 @@ padding-bottom:15px;
 color: var(--red);
 background-color: var(--white);
 border: 0px;
+}
+
+@media screen and  (max-width: 834px){
+  form{
+    grid-template-columns: 1fr 1fr;
+  }
 }

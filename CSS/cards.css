@@ -28,6 +28,29 @@ height: 50px;
 
 }
 
+/* tablets */
+
+@media screen and (max-width: 430px)  {
+  .card {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+
+      gap: 10px; 
+      padding: 20px; 
+  }
+}
+
+/* desktop */
+@media screen and(max-width: 1280px){
+.card{
+  display: flex;
+  gap: 10px;
+}
+
+}
+  
+
 
 
   

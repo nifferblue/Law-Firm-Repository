@@ -70,35 +70,30 @@
 .desktop-nav{
   display: none;
 }
-.desktop-nav{
- background-color: aqua;
- text-decoration:none;
+.desktop-nav ul {
+list-style-type: none;
+
+ /* background-color: aqua; */
  display: flex;
- gap: 5px;
-
-
+ gap: 15px;
 }
 
-@media screen and (min-width:834px) {
+.desktop-nav ul li a{
+  text-decoration:none;
+  color: var(--black);
+}
+
+/* tablets  and desktop*/
+@media screen  and (max-width: 1280px){
   .top-bar{
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0 20px;
-}
-.top-contact{
-    justify-content: start;     
-}
-.button-links{
-    justify-content: end;   
-}
-
-.desktop-nav{
     display: flex;
+  }
+  .desktop-nav{
+    display: flex;
+  }
+
+  
 }
 
-.mobile-nav{
-    display: none;
-}
 
-}
 

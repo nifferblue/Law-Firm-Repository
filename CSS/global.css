@@ -29,16 +29,4 @@ body{
 }
 
 
-/* phones */
-@media screen and (max-width: 430px) {
 
-}
-/* tablets */
-@media screen and (min-width: 430px) and (max-width: 834px){
-  
-
-}
-/* desktop */
-@media screen and (min-width: 834px) and (max-width: 1280px){
-
-}
